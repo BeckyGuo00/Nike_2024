@@ -20,6 +20,7 @@ Ensure Python 3.7+ is installed.
 1. Clone this repository:
 ```bash
 git clone https://github.com/BeckyGuo00/Nike_2024.git
+
 ```
 
 2. Install required libraries using pip:
