@@ -60,7 +60,6 @@ The application will open in a new browser tab automatically.
 nike_streamlit/
 ├── data/                        # Directory to store datasets (e.g., nike_sales_2024.csv)
 ├── nike_streamlit.py           # Streamlit application script
-├── requirements.txt            # Project dependencies
 └── README.md                   # This README file
 ```
 
