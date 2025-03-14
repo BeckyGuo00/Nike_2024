@@ -82,7 +82,7 @@ if region:
 if month:
     filtered_df = filtered_df[filtered_df["Month"].isin(month)]
 
-
+#Revenue by Main Category  and  Revenue by Sub Category
 col1, col2= st.columns((2))
 
 main_category_df = filtered_df.groupby(by = ["Main_Category"], as_index = False)["Revenue_USD"].sum()
@@ -113,7 +113,7 @@ with col2:
         st.download_button("Download Data", data = csv, file_name = "SubCategory.csv", mime = "text/csv",
                             help = 'Click here to download the data as a CSV file')
 
-
+#Revenue by product line and Revenue by Price Tier
 col3, col4 = st.columns((2))     
 product_line_df = filtered_df.groupby(by = ["Product_Line"], as_index = False)["Revenue_USD"].sum()
 with col3:
