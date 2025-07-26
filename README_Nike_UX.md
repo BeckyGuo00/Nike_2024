@@ -82,7 +82,7 @@ Add screenshots or a `.gif` demo here:
 - Tree map of regional pricing breakdowns
 
 ---
-## Installation
+## ⬇️ Installation
 
 1. Clone this repository:
 ```bash
