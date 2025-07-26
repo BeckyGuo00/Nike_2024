@@ -62,11 +62,11 @@ This project simulates how UX research can inform dashboard design and how insig
 Nike_2024/
 ├── README.md
 ├── data/
-│   └── nike_global_2024.csv
+│   └── nike_sales_2024.csv
 ├── notebooks/
 │   └── exploratory_analysis.ipynb
 ├── dashboard/
-│   └── streamlit_app.py
+│   └── nike_streamlit.py
 ├── images/
 │   └── dashboard_demo.gif
 └── requirements.txt
