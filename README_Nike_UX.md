@@ -82,11 +82,39 @@ Add screenshots or a `.gif` demo here:
 - Tree map of regional pricing breakdowns
 
 ---
+## Installation
+
+1. Clone this repository:
+```bash
+git clone https://github.com/BeckyGuo00/Nike_2024.git
+
+```
+
+2. Install required libraries using pip:
+```bash
+pip install -r requirements.txt
+```
+
+Create a `requirements.txt` file with the following content if you haven't done so:
+
+```
+streamlit
+pandas
+plotly
+openpyxl
+```
+
+Then install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+---
 
 ## 🚀 How to Run
 
 ```bash
-pip install -r requirements.txt
 streamlit run dashboard/streamlit_app.py
 ```
 
